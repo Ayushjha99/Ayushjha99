@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T15:26:49.277Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" version="21.3.2" etag="ApX2wwqr2mwE8EowKqCk" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-06T21:01:39.707Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="KE7yLFnAne-xzqDD1m45" version="21.3.2" type="github">
   <diagram name="Page-1" id="buvmdH6doJ8CCea31dmj">
-    <mxGraphModel>
+    <mxGraphModel dx="739" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="h0bzLPlo9S0AOwh-uUbM-1" value="&lt;i style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;VendingMachiene&lt;/font&gt;&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="470" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="h0bzLPlo9S0AOwh-uUbM-2" value="- cashInventory: inventory&amp;lt;Coin&amp;gt;&lt;br&gt;-itemInventory:Inventory&amp;lt;Item&amp;gt;&lt;br&gt;-totalSales:long&lt;br&gt;-currentItem: item&lt;br&gt;-currentBalance: long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h0bzLPlo9S0AOwh-uUbM-1">
+          <mxGeometry y="26" width="470" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="h0bzLPlo9S0AOwh-uUbM-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="h0bzLPlo9S0AOwh-uUbM-1">
+          <mxGeometry y="122" width="470" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="h0bzLPlo9S0AOwh-uUbM-4" value="+ VendingMachiene(Inventory&amp;lt;Coin&amp;gt; coins,Inventory&amp;lt;item&amp;gt;items)&lt;br&gt;+refund: List&amp;lt;Coin&amp;gt;&lt;br&gt;+insertCoin(Coin):Boolean&lt;br&gt;+selectItemAndGetPrice(Item):long&lt;br&gt;+collectItemAndChange():Bucket&amp;lt;Item,List&amp;lt;Coin&amp;gt;&amp;gt;&lt;br&gt;+reset():void&lt;br&gt;+getTotalSales()&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h0bzLPlo9S0AOwh-uUbM-1">
+          <mxGeometry y="130" width="470" height="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
